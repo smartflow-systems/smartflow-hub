@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-black: #0D0D0D;
+  --color-brown: #3B2F2F;
+  --color-gold: #FFD700;
+  --color-gold-hover: #E6C200;
+  --color-beige: #F5F5DC;
+}
+
+@layer utilities {
+  .bg-brown { background-color: var(--color-brown); }
+  .bg-gold { background-color: var(--color-gold); }
+  .bg-gold-hover { background-color: var(--color-gold-hover); }
+  .bg-beige { background-color: var(--color-beige); }
+  .text-beige { color: var(--color-beige); }
+}
